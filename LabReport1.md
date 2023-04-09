@@ -38,6 +38,9 @@ ls -lat
 ls -a
 
 
-ls < directory > where < directory > 
+ls < directory > 
+
+Here is how running some of these commands looks like:
+![Image](commands.png)
   
   
