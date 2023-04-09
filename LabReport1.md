@@ -26,3 +26,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 You should say yes since it is your first time connecting to a server.
 
 ## Trying Commands
+Now that you have been able to login you want to try using some of the commands on the terminal, some simple commands are using ls,cd,pwd,mkdir, and cp. If you would like to get specif you can use commands such as 
+cd ~ \\
+cd \\
+ls -lat \\
+ls -a \\
+ls <directory> where <directory> \\
