@@ -38,6 +38,6 @@ ls -lat
 ls -a
 
 
-ls <directory> where <directory> 
+ls < directory > where < directory > 
   
   
