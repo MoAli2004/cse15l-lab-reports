@@ -9,8 +9,12 @@ It should look like this
 
 You will then proceed to find the username associated with your CSE 15L account which should look like this cs15lsp23zz (zz will be replaced on yours) and reset the password, which will take a couple of minutes for it to completly process.
 
+## Downloading Visual Studio Code
+
 After completing that step you will then move on to downloading VSCode onto your Mac or Window device by going to this [Link](https://code.visualstudio.com/). I did not have to follow this step since I had already had VSCode downloaded onto my Macbook from last quarter since I had needed it to complete my assignments, but when installed it should look like this when you open it after it downloads.
 ![Image](VSCode.png)
+
+## Remotely Connecting
 
 Following that step is remotely connecting, which will need you to open up the terminal on VSCode ( a terminal can be opened by pressing Terminal → New Terminal menu option, I had found this easier since command or ctrl + didn't work for me). Once the terminal is opened you would like to enter ssh followed by your CSE15L emaill and passowrd to ensure you are logged in. As you can see in the image that I had a difficult time logging in because I did not realize you couldn't see the how many charachters there were when entering the password, so just be a little more aware when entering the password. I receieved the message Connection to ieng6.ucsd.edu closed by remote host. Connection to ieng6.ucsd.edu closed. which was told to me was okay by the lab instructors.
 ![Image](remoteconnecting2.png)
@@ -20,3 +24,5 @@ This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 You should say yes since it is your first time connecting to a server.
+
+## Trying Commands
