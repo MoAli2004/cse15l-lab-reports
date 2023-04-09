@@ -19,4 +19,4 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 This key is not known by any other names
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
-You should say yes as according to Joe, you should say yes when connecting to a server for the first time 
+You should say yes since it is your first time connecting to a server.
