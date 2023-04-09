@@ -9,5 +9,5 @@ It should look like this
 
 You will then proceed to find the username associated with your CSE 15L account which should look like this cs15lsp23zz (zz will be replaced on yours) and reset the password, which will take a couple of minutes for it to completly process.
 
-After completing that step you will then move on to downloading VSCode onto your Mac or Window device by going to this [Link](https://code.visualstudio.com/). I did not have to follow this step since I had already had VSCode downloaded onto my Macbook, but when installed it should look like this.
-![Image]()
+After completing that step you will then move on to downloading VSCode onto your Mac or Window device by going to this [Link](https://code.visualstudio.com/). I did not have to follow this step since I had already had VSCode downloaded onto my Macbook, but when installed it should look like this when you open it after it downloads.
+![Image](VSCode.png)
