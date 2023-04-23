@@ -76,7 +76,7 @@ public class StringServer
 ```
 
 ### Screenshots
-![image](Screenshot 2023-04-23 at 10.53.16 AM.png.png)
+![image](Screenshot 2023-04-23 at 10.53.16 AM.png)
 
 *URL* `localhost:4000/add-message?s=Hello`
 
