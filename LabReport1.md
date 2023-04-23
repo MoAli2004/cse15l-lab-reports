@@ -40,11 +40,14 @@ ls ~a
 
 
 ls < directory > 
-# What Do Some of These Commands Mean?
+## What Do Some of These Commands Mean?
 
 ls = lists the contents of a directory
+
 cd = changes into a given directory
+
 ls~ lat = lists all the files and directories in the current working directory or a directory that the user specifies.
+
 ls~a = will list all files including hidden files
 
 
