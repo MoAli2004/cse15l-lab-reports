@@ -76,7 +76,7 @@ public class StringServer
 ```
 
 ### Screenshots
-![image](https://user-images.githubusercontent.com/46171121/214736472-9a897ced-74d0-4fda-b87f-08e40944c930.png)
+![image](Screenshot 2023-04-23 at 10.53.16 AM.png.png)
 
 *URL* `localhost:4000/add-message?s=Hello`
 
