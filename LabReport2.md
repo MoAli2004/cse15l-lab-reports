@@ -76,13 +76,13 @@ public class StringServer
 ```
 
 ### Screenshots
-![image](Screenshot 2023-04-23 at 10.53.16 AM.png)
+![image](hello.png)
 
 *URL* `localhost:4000/add-message?s=Hello`
 
 The method `StringHandler.handleRequest(URI url)` is called with the argument being a URI object representing `localhost:4000/add-message?s=Hello`. The method parses this URI and updates the `StringHandler`'s `String string` field by adding on the `Hello` string, which was the argument in the URI (which is not the same as the argument to the Java method).
 
-![image](https://user-images.githubusercontent.com/46171121/214736506-d0abdeed-48ff-4e5a-abbc-ecedc1b9c5d9.png)
+![image](hello+.png)
 
 *URL* `localhost:4000/add-message?s=How are you`
 
