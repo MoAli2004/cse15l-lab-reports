@@ -193,4 +193,5 @@ The issue is that the original code  checks if an element is equal to the lowest
 ## Part 3: Something Learned
 
 
-f the work done by software engineers, especially by juniors and interns).
+
+uniors and interns).
