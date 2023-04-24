@@ -193,7 +193,4 @@ The issue is that the original code  checks if an element is equal to the lowest
 ## Part 3: Something Learned
 
 
-
-
-
-ng unit tests amounts to an enormous portion of the work done by software engineers, especially by juniors and interns).
+f the work done by software engineers, especially by juniors and interns).
