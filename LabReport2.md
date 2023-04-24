@@ -190,6 +190,5 @@ static double averageWithoutLowest(double[] arr)
 }
 ```
 The issue is that the original code  checks if an element is equal to the lowest value, so if there are more than one element with the lowest value, all of them are removed,which is why the first test fails, while the second test passes. The fix is to  keep track of the specific index at which the lowest value was found so that the only the element with that specific index is excluded.
-
 ## Part 3: Something Learned
 ting unit tests amounts to an enormous portion of the work done by software engineers, especially by juniors and interns).
