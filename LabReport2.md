@@ -80,7 +80,7 @@ public class StringServer
 
 *URL* `localhost:4000/add-message?s=Hello`
 
-The method `StringHandler.handleRequest(URI url)` is called with the argument being a URI object representing `localhost:4000/add-message?s=Hello`. The method parses this URI and updates the `StringHandler`'s `String string` field by adding on the `Hello` string, which was the argument in the URI (which is not the same as the argument to the Java method).
+The method `StringHandler.handleRequest(URI url)` is called with the argument being a URI object representing `localhost:4000/add-message?s=Hello`. The method parses this URI and updates the `StringHandler`'s `String string` field by adding the `Hello` string, which was the argument in the URI.
 
 ![image](hello+.png)
 
@@ -99,7 +99,7 @@ The chosen bug is in the `ArrayExamples.averageWithoutLowest(double[])` method.
 public void testAverageWithoutLowest()
 {
     double[] input0 = { 1.0, 1.0, 1.0, };
-    assertEquals(1.0, ArrayExamples.averageWithoutLowest(input0), 1e-9);
+    assertEquals(1.0, ArrayExamples.averageWithoutLowest(input0), 0.001);
 }
 ```
 
@@ -128,7 +128,7 @@ Tests run: 1,  Failures: 1
 public void testAverageWithoutLowest()
 {
     double[] input1 = { 1.0, 2.0, 4.0, };
-    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 1e-9);
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.001);
 }
 ```
 
@@ -189,7 +189,7 @@ static double averageWithoutLowest(double[] arr)
     return sum / (arr.length - 1);
 }
 ```
-The issue is that the original code simply checks if an element is equal to the lowest value, so if there are multiple elements with the lowest value, all of them are removed. That is why the first test (has duplicates) fails, while the second test (no duplicates) passes. To resolve the issue, the fix is to instead keep track of the specific index at which the lowest value was found. This way, only the element with that specific index is excluded.
+The issue is that the original code  checks if an element is equal to the lowest value, so if there are more than one element with the lowest value, all of them are removed,which is why the first test fails, while the second test passes. The fix is to  keep track of the specific index at which the lowest value was found so that the only the element with that specific index is excluded.
 
 ## Part 3: Something Learned
-I learned how to set up and use the JUnit framework to test code, albeit at a relatively simple level. Though I have moderate experience with Java, I've never really had to set up a unit testing framework for Java before. So this new knowledge of JUnit is greatly beneficial, since testing code is an extremely crucial skill (and from what I hear, writing unit tests amounts to an enormous portion of the work done by software engineers, especially by juniors and interns).
+I learned how to set up and use the JUnit framework to test code. I have an okay experience with Java, I've never had to set up a unit testing framework for Java before. So this new knowledge of JUnit is greatly beneficial, since testing code is an extremely crucial skill (and from what I hear, writing unit tests amounts to an enormous portion of the work done by software engineers, especially by juniors and interns).
