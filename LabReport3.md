@@ -84,7 +84,7 @@ General help using GNU software: <http://www.gnu.org/gethelp/>
 There are a lot of command options here, but I'd like to look at a couple. 
 
 ## `-r` command option
-I first learned about the `-r` option when preparing for the skill demonstration and very quickly learned about how useful it could be. I was initially struggling to find out how to use `grep` to search all the directories within a directory, but it would only search the non-directory files within the directory, echoing out `[DIRECTORY NAME]: Is a directory` without actually searching them. `-r` (standing for `--recursive`) solved this by recursively traversing all directories and searching inside each of them as well. 
+I learned about the `-r` option when looking for commands to use for examples and learned about how useful it could be. I was trying to find out how important this finction was and saw that it was used to search all the directories within a directory, but it would only search the non-directory files within the directory, echoing out `[DIRECTORY NAME]: Is a directory` without actually searching them. `-r` (standing for `--recursive`) solved this by recursively traversing all directories and searching inside each of them as well. 
 
 Source: [LinuxHint](https://linuxhint.com/use-grep-recursively/)
 
@@ -109,7 +109,7 @@ DocSearchServer.java:       } else if (url.getPath().equals("/search")) {
 DocSearchServer.java:           if (parameters[0].equals("q")) {
 ```
 ## `-l` command option
-This is another option I used during the skill demonstration, as I noticed that even after finding the file in a directory it would print the the line that the pattern (string) was on along with the file name, resulting in an extremely long and cluttered output result. It would also print a file more than once if the pattern appears more than once, which would be redundant when used for file searching. The `-l` (standing for `--files-with-matches`) option solved this by printing only the file with the matching pattern, once. 
+This is another option I that I also found while looking for commands to use, I noticed that this command even after finding the file in a directory would print the the line that the pattern (string) was on along with the file name, which would result in a long and cluttered output result. It would also print a file more than once if the pattern appeared more than once. The `-l` (standing for `--files-with-matches`) option solved this by printing only the file with the matching pattern, once. 
 
 ### Example 3
 ```
@@ -125,7 +125,7 @@ $ grep -r -l "if ("
 DocSearchServer.java
 ```
 ## `-n` command option
-The `-n` option (standing for `line-number`) is one I didn't use during the skill demonstration, but after researching it I was able to think of a couple of ways it could be useful. Simply put, it prints out the line number of the matching patterns along with the line itself. This can be useful, especially in debugging, if you were to look for all instances of a certain command in a file (if statements, for/while loops, conditions) or perhaps to search for all instances of a variable (in order to replace it). By knowing the line number, it is easier to go into the file to search and edit it yourself.  
+The `-n` option (standing for `line-number`) is the thrid option I chose and after researching it I was able to see a couple of ways it could be useful. Since it prints out the line number of the matching patterns along with the line itself, it showed me that it can be useful, especially in debugging, because if you were to look for all instances of a certain command in a file or to search for all instances of a variable. By knowing the line number, it is easier to go into the file to search and edit it yourself.  
 
 Source: [SoftwareTestingHelp](https://www.softwaretestinghelp.com/grep-command-in-unix/)
 
