@@ -1,8 +1,9 @@
 # Lab Report 3
-Welcome to CSE 15L Lab Report 3. This week we're studying bash commands. Or should I say, the many commands of the one command I've picked: `grep`
+Welcome to CSE 15L Lab Report 3. For this weeks lab report we're told choose a bash command from less,find, and grep. The command I've picked is `grep`
 
 ## Definition
-In our previous labs, we used `grep ".txt"` to find all the files in a directory that ended with the `.txt` extension. However, here's how `grep` defines itself and all its options, unapologetically copied and pasted from the command `grep --help`:
+While looking at what 'grep' does I was able to see that it is used to find all the files in a directory that ended with the `.txt` extension. The definiton from the command 'grep --help' states the following:
+
  ```
 Usage: grep [OPTION]... PATTERN [FILE]...
 Search for PATTERN in each FILE or standard input.
@@ -80,7 +81,7 @@ Report bugs to: bug-grep@gnu.org
 GNU grep home page: <https://www.gnu.org/software/grep/>
 General help using GNU software: <http://www.gnu.org/gethelp/>
  ```
-There are a lot of command options here, but I'd like to hone in on a just few of them. 
+There are a lot of command options here, but I'd like to look at a couple. 
 
 ## `-r` command option
 I first learned about the `-r` option when preparing for the skill demonstration and very quickly learned about how useful it could be. I was initially struggling to find out how to use `grep` to search all the directories within a directory, but it would only search the non-directory files within the directory, echoing out `[DIRECTORY NAME]: Is a directory` without actually searching them. `-r` (standing for `--recursive`) solved this by recursively traversing all directories and searching inside each of them as well. 
