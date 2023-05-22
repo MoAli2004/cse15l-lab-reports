@@ -20,7 +20,7 @@ Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for t
 5. Typed: `org.junit.runner.JUnitCore `
 6. Hold `<left>` (81 spaces): moves cursor to after `javac`
 7. `<backspace>`: Deletes `c`
-<br>![Image](Step6.PNG)
+<br>![Image](step6.png)
   
 ## Step 7: Edit the code
 * `$ nano JavaExamples.java` (Typed out command)
