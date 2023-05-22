@@ -30,12 +30,12 @@ Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for t
 3. `<backspace>`: Deletes `1`
 4. Type `2`: Finishes replacing `index1` with `index2`
 5. `Ctrl + X`, `y`, `<Enter>`: Exit command, confirm changes, confirm write out file
-![Image](Step7.PNG)
+![Image](step7.png)
   
 ## Step 8: Run the tests
 * `<up>` 3 times, `<Enter>`: Navigates to previous `javac` command, runs `javac` again
 * `<up>` 3 times, `<Enter>`: Navigates to previous `java` command, runs `java` again
-![Image](Step8.PNG)
+![Image](step8.png)
   
 ## Step 9: Commit and push
 * `$ git add ListExamples.java`: Adds `ListExamples.java` to commits
