@@ -1,5 +1,5 @@
 # Lab Report 4
-Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for the CLDQ (CSE Labs Done Quick) competition.
+Welcome to CSE 15L Lab Report 4. This week we're doing a walkthrough for the Do It All From The Command Line.
 
 ## Step 4: Log into ieng6
 * `$ ssh cs15lsp23hg@ieng6.ucsd.edu` (Typed out command): Logged into ssh server
