@@ -7,7 +7,7 @@ Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for t
 ![Image](step4.png)
 
 ## Step 5: Clone your fork
-`$ git clone [https://github.com/ucsd-cse15l-s23/lab7.git]`(Typed out command): Clones the repository from GitHub
+`$ git clone https://github.com/ucsd-cse15l-s23/lab7.git`(Typed out command): Clones the repository from GitHub
 ![Image](step5.png)
 
 ## Step 6: Run the tests
