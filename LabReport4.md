@@ -43,5 +43,5 @@ Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for t
 * `git push`: Push the changes
 1. `MoAli2004` (Typed out my username)
 2. `<Right Click>` + `Paste`: Pasted my previously generated personal access token
-![Image](step9.png)
+![Image](step9a.png)
 
