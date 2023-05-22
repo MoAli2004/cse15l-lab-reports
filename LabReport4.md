@@ -41,7 +41,7 @@ Welcome to CSE 15L Lab Report 4. This week we're chronicling a walkthrough for t
 * `$ git add ListExamples.java`: Adds `ListExamples.java` to commits
 * `$ git commit -m "fast"`: Commits the changes in a fast manner
 * `git push`: Push the changes
-1. `andrewtran5222` (Typed out my username)
+1. `MoAli2004` (Typed out my username)
 2. `<Right Click>` + `Paste`: Pasted my previously generated personal access token
 ![Image](Step9b.PNG)
 
